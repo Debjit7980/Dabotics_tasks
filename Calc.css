@@ -1,0 +1,83 @@
+body{
+    padding:0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ecf0f3;
+}
+.container{
+    width: 45%;
+    height: max-content;
+    padding:6px;
+    box-shadow: 2px 5px 15px grey;
+}
+.display input{
+    width: 97%;
+    padding:2px;
+    height: 50px;
+    font-size: 20px;
+    text-align: right;
+    border:none;
+    border-radius: 5px;
+    box-shadow: inset 6px 6px 8px lightgray,
+                inset -6px -6px 8px white;
+
+}
+.display input:focus{
+    outline: none;
+}
+.btns{
+    width: 100%;
+    margin-top:2%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btns .row button{
+    outline: none;
+    border: none;
+    font-size: 18px;
+    width: 80px;
+    height: 35px;
+    margin:0.2rem;
+    margin-top:8px;
+    box-shadow: 5px 5px 10px #00000020,
+                -5px -5px 8px lightgrey;
+    border-radius: 5px;
+}
+.btns .row button:hover{
+    transition: 0.6s;
+    box-shadow:  inset 5px 5px 8px rgba(16,16,16,.1),
+                 inset -5px -5px 8px #fff;
+                 background:rgb(233, 233, 233);
+    cursor: pointer;
+}
+#ce{
+    background-color: rgb(250, 119, 119);
+}
+#ac{
+    background-color: green;
+    color:white;
+    
+}
+#ac:hover{
+    box-shadow: inset 5px 5px 8px #2eb82e,
+                inset -5px -5px 8px #33cc33;
+}
+#eval{
+    background-color: rgb(90, 90, 255);
+    color: white;
+    
+}
+#eval:hover{
+    box-shadow: inset 5px 5px 8px #60ccf0,
+                inset -5px -5px 8px #3c57f0;
+    
+}
+#ce:hover{
+    box-shadow: none;
+}
